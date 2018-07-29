@@ -1,9 +1,6 @@
 """
-
 The prime factors of 13195 are 5, 7, 13 and 29.
-
 What is the largest prime factor of the number 600851475143 ?
-
 """
 
 def is_prime(num):
@@ -17,7 +14,6 @@ def is_prime(num):
 
 def get_prime_factors(x):
    # This function takes a number and prints the factors
-
     prime_factors = []
     for i in range(1, x + 1):
         if (x % i == 0) and is_prime(i):
