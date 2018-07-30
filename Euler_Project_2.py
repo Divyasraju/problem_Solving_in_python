@@ -9,12 +9,12 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 """
 
 
-prev, cur = 0, 1
+previous, current = 0, 1
 total = 0
 while True:
-    prev, cur = cur, prev + cur
-    if cur >= 4000000:
+    previous, current = current, previous + current
+    if current >= 4000000:
         break
-    if cur % 2 == 0:
-        total += cur
+    if current % 2 == 0:
+        total += current
 print(total)
